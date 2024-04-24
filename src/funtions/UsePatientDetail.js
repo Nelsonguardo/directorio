@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { calculaEdad, FechaActualFormatoISO } from '../helpers/formatoFechas';
+import { calculaEdad, FechaActualFormatoDB } from '../helpers/formatoFechas';
 
 const usePatientDetail = (patientId, fetchPatientData) => {
 
@@ -43,8 +43,8 @@ const usePatientDetail = (patientId, fetchPatientData) => {
             address: newData.get('address'),
             occupation: newData.get('occupation'),
             remarks: newData.get('remarks'),
-            lastAttention: FechaActualFormatoISO(),
-            checkinDate: FechaActualFormatoISO()
+            lastAttention: FechaActualFormatoDB(),
+            checkinDate: FechaActualFormatoDB()
         };
 
         try {

@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/PatientDetail.css';
 import React from 'react';
-import { fechaDB } from '../helpers/formatoFechas';
+import { fechaDB, formatoFechasHMS } from '../helpers/formatoFechas';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPenToSquare, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
+import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { primerasMayusculas } from '../helpers/formatoTextos';
 import meidicoData from '../data/medico';
 import usePatientDetail from '../funtions/UsePatientDetail';
@@ -209,6 +209,7 @@ const DetallePaciente = ({ modal, setModal, patientId, closeModal, fetchPatientD
                                                 </div>
                                                 <label htmlFor="especialty" className="especialty-label">{meidicoData[0].especialidad}</label>
                                                 <label htmlFor="remarks-label" className="remarks-label">{patientData.remarks}</label>
+                                                <label htmlFor="checkinDate-label" className="checkinDate-label"> Check-In: {formatoFechasHMS(patientData.checkinDate)}</label>
                                             </>
                                         )}
                                     </div>

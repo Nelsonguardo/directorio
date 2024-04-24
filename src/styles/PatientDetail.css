@@ -120,6 +120,14 @@ label {
     /* Ajusta el margen superior según sea necesario */
 }
 
+.checkinDate-label {
+    display: block;
+    font-weight: unset;
+    margin-top: 4px;
+    color: #949494;
+    /* Ajusta el margen superior según sea necesario */
+}
+
 .medic-div {
     display: flex;
     align-items: center;
