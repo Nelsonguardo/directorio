@@ -209,7 +209,7 @@ const DetallePaciente = ({ modal, setModal, patientId, closeModal, fetchPatientD
                                                 </div>
                                                 <label htmlFor="especialty" className="especialty-label">{meidicoData[0].especialidad}</label>
                                                 <label htmlFor="remarks-label" className="remarks-label">{patientData.remarks}</label>
-                                                <label htmlFor="checkinDate-label" className="checkinDate-label"> Check-In: {formatoFechasHMS(patientData.checkinDate)}</label>
+                                                <label htmlFor="checkinDate-label" className="checkinDate-label"> Check-In: {(patientData.checkinDate)}</label>
                                             </>
                                         )}
                                     </div>
