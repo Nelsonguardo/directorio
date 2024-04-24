@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Guía para Correr el Proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta guía te ayudará a configurar y ejecutar un proyecto que incluye los módulos y componentes necesarios.
 
-## Available Scripts
+## 1. Tener instalado Node 
 
-In the project directory, you can run:
+Si aún no tienes instalo Node:
 
-### `npm start`
+1. **Visita el sitio web oficial de Node.js**: Ve a [nodejs.org](https://nodejs.org) en tu navegador web.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Descarga la versión adecuada para tu sistema operativo**: En la página principal de Node.js, verás dos versiones para descargar: LTS (versión de soporte a largo plazo) y Current (la versión más reciente con las últimas características). Si estás buscando estabilidad y compatibilidad, es recomendable que elijas la versión LTS. Haz clic en el botón de descarga correspondiente para tu sistema operativo (Windows, macOS o Linux).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Instala Node.js**: Una vez que se complete la descarga, ejecuta el instalador haciendo doble clic en el archivo descargado y sigue las instrucciones en pantalla. En la mayoría de los casos, simplemente tendrás que hacer clic en "Siguiente" o "Instalar" y aceptar los términos de la licencia.
 
-### `npm test`
+4. **Verifica la instalación**: Después de instalar Node.js, puedes verificar si se instaló correctamente abriendo una terminal o línea de comandos y escribiendo los siguientes comandos:
+   
+   ```bash
+   node -v
+   npm -v```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  Clona el repositorio desde Git utilizando el siguiente comando en tu terminal:
 
-### `npm run build`
+   ```bash
+   https://github.com/Nelsonguardo/directorio.git
+ ```
+## 2. Navegar al Directorio del Proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Utiliza el comando cd para ingresar al directorio de tu proyecto recién creado o clonado:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+cd directorio
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 3. Instalar Dependencias
 
-### `npm run eject`
+Instalar las dependecinas en el proyecto, utilizamos: fortawesome y bootstrap
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 4. Ejecutar el proyecto
 
-## Learn More
+Utiliza el comando http-server para iniciar el servidor de desarrollo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start   
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 5. Descargar proyecto backendr
 
-### Code Splitting
+El enlace de descarga está en el repositorio. Sigue los pasos para ejecutarlo. Los datos del proyecto provienen de la API, que es el backend. ¡Asegúrate de ejecutarlo para obtener resultados precisos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+https://github.com/Nelsonguardo/backend.git
+```
