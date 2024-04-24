@@ -1,0 +1,133 @@
+/* Estilos para DetallePaciente */
+#name,
+#birthDate,
+#edad,
+#identification,
+#type,
+#mobile,
+#phone,
+#address,
+#occupation {
+    border: none;
+}
+
+#remarks {
+    border: 1px solid black;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #0F4C81;
+}
+
+.custom-text-color {
+    color: #949494;
+}
+
+.button {
+    color: #5db410;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #90BB6A;
+}
+
+.close {
+    color: rgb(207, 79, 79);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.close:hover {
+    color: red;
+}
+
+/* Para quitar la línea del modal-header y modal-footer */
+.modal-header,
+.modal-footer {
+    border: none;
+    /* Elimina la línea */
+}
+
+/* Para centrar el título y mover el botón de cierre a la derecha */
+.modal-header {
+    display: flex;
+    /* Usa flexbox para alinear los elementos */
+    justify-content: space-between;
+    /* Separa el título y el botón */
+    align-items: center;
+    flex-direction: column-reverse;
+    /* Centra los elementos verticalmente */
+}
+
+.modal-title {
+    color: #0F4C81;
+    font-weight: bold;
+
+}
+
+/* Para asegurarte de que el botón de cierre esté a la derecha */
+.close {
+    margin-left: auto;
+    /* Empuja el botón hacia la derecha */
+}
+
+.icon-color {
+    color: #5db410;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.margin-top {
+    margin-top: -5px;
+}
+
+.edit-button {
+    margin-top: -10px;
+}
+
+.remarks-label {
+    display: block;
+    /* Para que cada label se muestre en una línea separada */
+    margin-top: 16px;
+    font-size: small;
+    font-weight: unset;
+    /* Ajusta el margen superior */
+    color: #949494;
+}
+
+/* Añade un margen inferior adicional solo al último label */
+.remarks-label:last-child {
+    margin-bottom: 32px;
+    /* Doble espacio de separación */
+}
+
+.especialty-label {
+    display: block;
+    font-weight: unset;
+    margin-top: 4px;
+    color: #949494;
+    /* Ajusta el margen superior según sea necesario */
+}
+
+.medic-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+.textarea {
+    padding-inline: 10px;
+}
